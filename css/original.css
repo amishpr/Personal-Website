@@ -6,13 +6,13 @@
 }
 
 :root {
- --color-background: #011627;
-  --color-primary: #D6DBDB;
-  --color-secondary: #2EC4B6;
-  --color-tertiary: #E71D36;
-  --color-gradient-start: #011627;
+ --color-background: #3AAFA9;
+  --color-primary: #DEF2F1;
+  --color-secondary: #236865;
+  --color-tertiary: #17252A;
+  --color-gradient-start: #3AAFA9;
   --color-gradient-stop: #2EC4B6;
-  --color-gradient-start-secondary: #011627;
+  --color-gradient-start-secondary: #3AAFA9;
   --color-gradient-stop-secondary: #E71D36;
   --color-gradient-start-tertiary: #2EC4B6;
   --color-gradient-stop-tertiary: #E71D36;
@@ -86,12 +86,12 @@ h6 {
 
 .main-header .social-icon:not([class*=scheme-]) a,
 .main-nav > li > a {
-  color: #FDFFFC;
+  color: #236865;
 }
 
 .main-header .social-icon:not([class*=scheme-]) a:hover,
 .main-nav > li > a:hover {
-  color: #FDFFFC;
+  color: #236865;
 }
 
 .main-nav > li > a {
@@ -104,26 +104,26 @@ h6 {
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
-  color: #FDFFFC;
+  color: #236865;
 }
 
 .nav-light .main-nav > li > a {
-  color: #FDFFFC;
+  color: #236865;
 }
 
 .nav-light .main-nav > li > a .link-ext {
-  background-color: #FDFFFC;
+  background-color: #236865;
 }
 
 .nav-dark .main-nav > li > a {
-  color: #011627;
+  color: #236865;
 }
 
 .nav-dark .main-nav > li.is-active > a,
 .nav-dark .main-nav > li.current-menu-item > a,
 .nav-dark .main-nav > li:hover > a,
 .nav-dark .main-nav > li > a:hover {
-  color: #011627;
+  color: #236865;
 }
 
 .main-footer {
@@ -131,25 +131,25 @@ h6 {
 }
 
 .main-footer a:not(.btn) {
-  color: #2EC4B6;
+  color: #236865;
 }
 
 .main-footer a:not(.btn):hover {
-  color: #FDFFFC;
+  color: #236865;
 }
 
 @media (min-width: 1200px) {
   .main-header .is-stuck {
-    background: #FDFFFC !important;
+    background: #236865 !important;
   }
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
   .mainbar-wrap.is-stuck .main-nav > li > a,
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
-    color: #011627 !important;
+    color: #3AAFA9 !important;
   }
   .mainbar-wrap.is-stuck .social-icon a:hover,
   .mainbar-wrap.is-stuck .main-nav > li > a:hover {
-    color: #011627 !important;
+    color: #3AAFA9 !important;
   }
 }
